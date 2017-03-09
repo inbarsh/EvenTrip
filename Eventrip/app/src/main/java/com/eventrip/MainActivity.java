@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         LinearLayout searchButton = (LinearLayout) findViewById(R.id.searchButton);
         searchButton.setOnClickListener(this);
 
@@ -25,5 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //Intent intent = new Intent(this, new MainActivity());
                 break;
         }
+=======
+        Intent intent = new Intent(this,ListActivity.class);
+        startActivity(intent);
+>>>>>>> 6cb0e5b315562031575a413628efddf8e8fd28b4
     }
 }
