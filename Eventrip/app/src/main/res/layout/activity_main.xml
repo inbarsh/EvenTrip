@@ -58,11 +58,11 @@
             android:layout_height="100dp"
             android:text="Find Events"
             android:layout_centerInParent="true"
-            
+            android:layout_above="@+id/searchButton"
             android:textSize="53sp" />
         <LinearLayout
-            android:orientation="vertical"
             android:id="@+id/searchButton"
+            android:orientation="vertical"
             android:clickable="true"
             android:layout_width="150dp"
             android:layout_height="150dp"
