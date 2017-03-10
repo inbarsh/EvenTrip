@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Eventrip</string>
+    <string name="facebook_app_id">1907985376103358</string>
+    <string name="fb_login_protocol_scheme">fb1907985376103358</string>
 </resources>
